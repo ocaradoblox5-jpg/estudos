@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia em html 5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+   <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p> 
+   <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png.png" alt="imagem flexivel">
+   </picture>
+   <h1>reproduzindo audio</h1>
+   <p>vamos aprender a reproduzir audios em html5</p>
+   <audio preload="metadata" controls>
+    <source src="midia/musica-andrei.mp3" type="audio/mp3">
+   </audio>
+   <p>se você quiser baixar o arquivo em mp3 <a href="midia/musica-andrei.mp3">clique aqui</a>
+    </p>
+   </body>
+</html>
